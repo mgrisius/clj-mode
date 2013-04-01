@@ -4,7 +4,7 @@
 ;;
 ;; Authors: Jeffrey Chu <jochu0@gmail.com>
 ;;          Lennart Staflin <lenst@lysator.liu.se>
-;;          Matthew A. Grisius (mag) <mgrisius@acm.org>
+;; Author:  Matthew A. Grisius (mag) <mgrisius@acm.org>
 ;; URL: http://github.com/mgrisius/clj-mode
 ;; Version: 0.9
 ;; Keywords: languages, lisp, Clojure, clj
