@@ -5,10 +5,10 @@
 ;; Authors: Jeffrey Chu <jochu0@gmail.com>
 ;;          Lennart Staflin <lenst@lysator.liu.se>
 ;;          Matthew A. Grisius (mag) <mgrisius@acm.org>
-;; Derived from orginal version 1.0 of clojure-mode at:
-;; URL: original - http://www.emacswiki.org/emacs/clojure-mode.el
-;; URL: updated  - http://github.com/mgrisius/clj-mode
-;; Version: v0.9 - April 2013
+;; April 2013
+;; Derived from orginal version 1.0 of clojure-mode at: http://www.emacswiki.org/emacs/clojure-mode.el
+;; URL: http://github.com/mgrisius/clj-mode
+;; Version: 0.9
 ;; Keywords: languages, lisp, Clojure, clj
 ;; This file is not part of GNU Emacs.
 
@@ -724,3 +724,4 @@ Will navigate upwards in an sexp to check for contextual indenting."
 (add-to-list 'auto-mode-alist '("\\.clj$" . clj-mode))
 
 (provide 'clj-mode)
+;;; clj-mode.el ends here
