@@ -5,8 +5,6 @@
 ;; Authors: Jeffrey Chu <jochu0@gmail.com>
 ;;          Lennart Staflin <lenst@lysator.liu.se>
 ;;          Matthew A. Grisius (mag) <mgrisius@acm.org>
-;; April 2013
-;; Derived from orginal version 1.0 of clojure-mode at: http://www.emacswiki.org/emacs/clojure-mode.el
 ;; URL: http://github.com/mgrisius/clj-mode
 ;; Version: 0.9
 ;; Keywords: languages, lisp, Clojure, clj
@@ -14,6 +12,8 @@
 
 ;;; Commentary:
 
+;; April 2013 - http://github.com/mgrisius/clj-mode
+;; Derived from orginal version 1.0 of clojure-mode at: http://www.emacswiki.org/emacs/clojure-mode.el
 ;; Basic syntax highlighting/formatting/navigation for clojure (http://clojure.org).
 ;; Rename to clj-mode to preserve original clojure-mode.el version 1.0 'branch' of
 ;; 2007-2008 before references to it totally disappear, and to avoid name conflicts,
