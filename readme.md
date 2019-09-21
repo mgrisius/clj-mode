@@ -1,6 +1,8 @@
-##clj-mode v 0.9
+#### clj-mode v 0.9
 
 clj-mode - a very basic emacs major mode for the clojure language.
+
+back from an unplanned  hiatus . . .
 
 Provide basic syntax highlighting (font-lock), syntax formatting (indentation),
 and navigation for clojure (http://clojure.org).
@@ -18,7 +20,7 @@ clj-mode strategy: avoid version and package dependencies, simplify inferior-lis
 and use analogous to traditional ('old school') lisp and scheme modes, e.g. make it
 'self contained'.
 
-###Steps:
+## Steps:
 
 * rename to clj-mode.
 * update to clojure 1.5.1.
@@ -26,7 +28,7 @@ and use analogous to traditional ('old school') lisp and scheme modes, e.g. make
 * simplify/fix/add a few minor things.
 * create Auto Complete clj-mode dict file.
 
-###imenu
+## imenu
 
 clojure-match-next-def d/n work correctly, using `clojure-1.4.0/src/clj/clojure/core.clj'
 as a test use case over 20 of 571 defs or ~4% were missing from index, plus erroneous
@@ -36,19 +38,19 @@ m-x imenu now works with clj-mode-next-def, or try out
 (add-hook 'clj-mode-hook 'imenu-add-menubar-index), very useful on large files
 like core.clj with over 500 definitions.
 
-###Auto Complete Mode dict
+## Auto Complete Mode dict
 
 An 'clj-mode' dict file been updated to clojure 1.5.1. for Auto Complete
 mode (http://cx4a.org/software/auto-complete/).
 
 rename 'auto-complete-dict-clj-mode' to 'clj-mode' and put in 'dict' dir. 
 
-###License
+## License
 
 Copyright (c) 2007-2008/2013 Jeffrey Chu & Lennart Staflin, (c) 2013 Matthew A. Grisius
 
 Distributed under the GNU General Public License
 
-###Keywords
+## Keywords
 
 keywords: clj-mode, clojure-mode, lisp, clojure, clj
