@@ -1,6 +1,6 @@
-#### clj-mode v 0.9
+# clj-mode v 0.9
 
-clj-mode - a very basic emacs major mode for the clojure language.
+clj-mode - a 'bare metal' (old school) emacs major mode for the clojure language.
 
 back from an unplanned  hiatus . . .
 
@@ -13,7 +13,7 @@ http://www.emacswiki.org/emacs/clojure-mode.el
 clj-mode is roughly 80% the same as original version 1.0. 14 forms are the same, 4 forms have
 minor uopdates, 5 are re-written or split.
 
-Preserve original version 1.0 clojure-mode.el 2007/2008 'branch' before
+Preserve reference to original version 1.0 clojure-mode.el 2007/2008 'branch' before
 all references to it disappear, and it slips into obscurity. 
 
 clj-mode strategy: avoid version and package dependencies, simplify inferior-lisp-mode set up
@@ -23,10 +23,10 @@ and use analogous to traditional ('old school') lisp and scheme modes, e.g. make
 ## Steps:
 
 * rename to clj-mode.
-* update to clojure 1.5.1.
+* update to clojure 1.5.1. (needs further updates clojure 1.11.n)
 * add updated imenu interface function.
 * simplify/fix/add a few minor things.
-* create Auto Complete clj-mode dict file.
+* delete old Auto Complete clj-mode dict file, use 'modern' ac dictionary and rename clj-mode
 
 ## imenu
 
@@ -38,16 +38,13 @@ m-x imenu now works with clj-mode-next-def, or try out
 (add-hook 'clj-mode-hook 'imenu-add-menubar-index), very useful on large files
 like core.clj with over 500 definitions.
 
-## Auto Complete Mode dict
+## Delete Auto Complete Mode dict, use 'modern' ac dict file
 
-An 'clj-mode' dict file been updated to clojure 1.5.1. for Auto Complete
-mode (http://cx4a.org/software/auto-complete/).
-
-rename 'auto-complete-dict-clj-mode' to 'clj-mode' and put in 'dict' dir. 
+copy ac 'clojure-mode' to 'clj-mode' in 'dict' dir. 
 
 ## License
 
-Copyright (c) 2007-2008/2013 Jeffrey Chu & Lennart Staflin, (c) 2013 Matthew A. Grisius
+Source Copyright (c) 2007-2008/2013 Jeffrey Chu & Lennart Staflin, (c) 2013-2019 Matthew A. Grisius
 
 Distributed under the GNU General Public License
 
